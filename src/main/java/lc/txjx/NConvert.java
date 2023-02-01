@@ -1,4 +1,4 @@
-package main.java.lc;
+package main.java.lc.txjx;
 
 import java.util.ArrayList;
 import java.util.List;
