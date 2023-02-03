@@ -87,5 +87,17 @@ public class ThreeSums15 {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
         System.out.println(threeSums(nums));
+
+        retry:
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.print(j + ",");
+                if (j == 2) {
+                    continue retry;
+                }
+            }
+            System.out.println("---");
+
+        }
     }
 }
