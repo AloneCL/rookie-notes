@@ -83,8 +83,8 @@ public class FourSum18 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2, 2, 2, 2, 2};
+        int[] nums = {1, 0, -1, 0, -2, 2};
         FourSum18 test = new FourSum18();
-        System.out.println(test.fourSum(nums, 8));
+        System.out.println(test.fourSum(nums, 0));
     }
 }
